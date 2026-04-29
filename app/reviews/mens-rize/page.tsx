@@ -151,6 +151,20 @@ export default function MensRizeReviewPage() {
         </div>
       </section>
 
+      <section className="py-12">
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="bg-[#f8fafc] border border-[#cbd5e1] rounded-lg p-5 my-8">
+            <h3 className="text-base font-bold text-[#1e3a5f] mb-3">関連記事</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+              <Link href="/articles/beard/" className="text-sm text-[#1e3a5f] hover:text-[#2563eb] transition-colors">→ ヒゲ脱毛おすすめクリニック6選｜料金・回数・痛みを比較</Link>
+              <Link href="/articles/pain/" className="text-sm text-[#1e3a5f] hover:text-[#2563eb] transition-colors">→ メンズ脱毛の痛みはどのくらい？部位別の痛みと対策</Link>
+              <Link href="/articles/gorilla-vs-rize/" className="text-sm text-[#1e3a5f] hover:text-[#2563eb] transition-colors">→ ゴリラクリニック vs メンズリゼ比較｜ヒゲ脱毛はどっち？</Link>
+              <Link href="/articles/cost-guide/" className="text-sm text-[#1e3a5f] hover:text-[#2563eb] transition-colors">→ メンズ脱毛の料金ガイド｜安いクリニックの選び方</Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-primary text-white py-12">
         <div className="max-w-3xl mx-auto px-4 text-center">
           <h2 className="text-2xl font-bold text-white mb-4">メンズリゼが気になる方へ</h2>
